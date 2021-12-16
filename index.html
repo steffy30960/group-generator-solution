@@ -68,14 +68,28 @@
         
         <!-- Liste des participants-->
         <h2>Liste des participants</h2>
+        
         <ul id="participantList">
            
             <!--je veux ajouter mes participants-->
         </ul>
+        <form action="" id = "generateGroup" >
+            <input type ="number"  
+            id= "groupNumber" 
+            name = "groupNumber" 
+            placeholder = "Nombre de groupes"
+            min="1"
+            step="1"
+            value="1"
+            >
+        <button class = 'btn btn-primary' type  = "submit">génerer les groupes</button>
+        </form>
 
         <!-- Affichage des groupes -->
-        <h2>Liste des groupes</h2>
-        
+        <h2>Liste des groupes</h2> 
+        <div id = "groupList">
+            <!--je veux rajouter mes groupes -->
+        </div>
     </div>
     
     <!-- Boostrap js -->
